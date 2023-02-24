@@ -4,7 +4,7 @@
 
 class Block:
     def __init__(self, index: int, timestamp: str, proof: int, prev_hash: str) -> None:
-        self.nonce = 0
+        #self.nonce = 0
         self.index = index
         self.proof = proof
         self.timestamp = timestamp
