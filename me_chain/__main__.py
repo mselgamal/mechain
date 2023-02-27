@@ -8,5 +8,4 @@ def main():
     uvicorn.run("me_chain:app", port=port, reload=True, workers=1)
 
 
-if __name__ == "__main__":
-    main()
+main()
