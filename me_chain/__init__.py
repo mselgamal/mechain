@@ -18,3 +18,7 @@ def mine_block():
 @app.get('/is_chain_valid')
 def is_chain_valid():
     return {"is_valid": blockchain_service.is_chain_valid()}
+
+@app.get('/get_chain')
+def get_chain():
+    return blockchain_service
